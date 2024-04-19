@@ -1,0 +1,66 @@
+:root {
+    --cor-de-fundo-botao: rgb(8, 219, 156);
+    --cor-fonte: rgb(12, 28, 248);
+    --cor-borda: rgb(0, 0, 0);
+
+}
+
+.titulo1 {
+    font-family: tac one;
+    color: var(--cor-fonte);
+    font-size: 10em;
+    text-align: center;
+    padding: 50px 50px;
+}
+
+.principal {
+    background-image: url(fundo.png);color:rgb(11, 192, 5)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+}
+
+
+.lista-personagens {
+    list-style: none;
+    font-family: tac one;
+    color: rgba(233, 17, 233, 0.63);
+    font-size: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mario img {
+    width: 2.2em;
+}
+
+.mario {
+    text-align: center;
+}
+
+.yoshi img {
+    width: 2em;
+}
+
+.bowser img {
+    width: 3em;
+}
+
+.peach img {
+    width: 2em;
+}
+
+.botao {
+    text-decoration: none;
+    color: rgb(32, 26, 26);
+}
+
+.botao:hover {
+    color: rgb(27, 27, 19);
+}
