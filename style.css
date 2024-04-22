@@ -1,66 +1,21 @@
-:root {
-    --cor-de-fundo-botao: rgb(8, 219, 156);
-    --cor-fonte: rgb(12, 28, 248);
-    --cor-borda: rgb(0, 0, 0);
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-}
-
-.titulo1 {
-    font-family: tac one;
-    color: var(--cor-fonte);
-    font-size: 10em;
+.titulo-1 {
     text-align: center;
-    padding: 50px 50px;
+    color: rgb(17, 214, 43);
+    font-size: 80px;
+    font-family: "Permanent Marker", cursive;
 }
 
-.principal {
-    background-image: url(fundo.png);color:rgb(11, 192, 5)
+.paragrafo-1 {
+
+    font-size: 30px;
+    color: red;
+    font-family: "Permanent Marker", cursive;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
+body {
+    background-image: url(balloon-5255326_1280.jpg);
+   
 
-.container {
-    height: 100vh;
-}
-
-
-.lista-personagens {
-    list-style: none;
-    font-family: tac one;
-    color: rgba(233, 17, 233, 0.63);
-    font-size: 50px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.mario img {
-    width: 2.2em;
-}
-
-.mario {
-    text-align: center;
-}
-
-.yoshi img {
-    width: 2em;
-}
-
-.bowser img {
-    width: 3em;
-}
-
-.peach img {
-    width: 2em;
-}
-
-.botao {
-    text-decoration: none;
-    color: rgb(32, 26, 26);
-}
-
-.botao:hover {
-    color: rgb(27, 27, 19);
 }
