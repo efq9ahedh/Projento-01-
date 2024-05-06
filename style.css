@@ -1,21 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
-.titulo-1 {
+/* Estilos para a página inicial */
+header {
+    background-image: url('space_background.jpg');
+    background-size: cover;
+    color: rgb(217, 7, 7);
     text-align: center;
-    color: rgb(17, 214, 43);
-    font-size: 80px;
-    font-family: "Permanent Marker", cursive;
+    padding: 100px 0;
 }
 
-.paragrafo-1 {
+nav {
+    background-color: black;
+    color: rgb(56, 225, 18);
+    text-align: center;
+    padding: 10px 0;
+}
 
-    font-size: 30px;
-    color: red;
-    font-family: "Permanent Marker", cursive;
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(0, 194, 78);
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
+    color: rgb(159, 227, 13);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 body {
-    background-image: url(balloon-5255326_1280.jpg);
-   
+    background-image: url(astronaut-4106766_1280.jpg);
+    background-size: 95
+    background-repeat: 
+
+
 
 }
